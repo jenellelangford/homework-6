@@ -66,13 +66,13 @@ inquirer.prompt ([
   text += " * " + response.license + "\n"
   text += " * Contributing " + "\n" + "\n"
   text += "## Test " + "\n"
-  text += "Command to run test: " + response.run + "\n"
-  text += "Previous knowledge for using repo: " + response.knowledge + "\n"
-  text += "Contributing to the repo: " + response.contribution + "\n" + "\n"
+  text += " * Command to run test: " + response.run + "\n"
+  text += " * Previous knowledge for using repo: " + response.knowledge + "\n"
+  text += " * Contributing to the repo: " + response.contribution + "\n" + "\n"
   text += "## GitHub User Information " + "\n" 
-  text += "GitHub username: " + response.username + "\n"
-  text += "**GitHub email: " + response.email + "\n"
-  text += "GitHub Project URL: " + response.url
+  text += " * GitHub username: " + response.username + "\n"
+  text += " * GitHub email: " + response.email + "\n"
+  text += " * GitHub Project URL: " + response.url
 
 
 

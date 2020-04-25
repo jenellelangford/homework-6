@@ -10,11 +10,11 @@ README Generator allows the user the to create a README File for their selected 
  * Contributing 
 
 ## Test 
-Command to run test: test
-Previous knowledge for using repo: nothing
-Contributing to the repo: nothing
+ * Command to run test: test
+ * Previous knowledge for using repo: nothing
+ * Contributing to the repo: nothing
 
 ## GitHub User Information 
-GitHub username: jenellelangford
-**GitHub email: jenellelangford@gmail.com
-GitHub Project URL: https://github.com/jenellelangford/homework-6
+ * GitHub username: jenellelangford
+ * GitHub email: jenellelangford@gmail.com
+ * GitHub Project URL: https://github.com/jenellelangford/homework-6
