@@ -57,16 +57,25 @@ inquirer.prompt ([
     name: "contribution"
   }
 ]).then (response => {
-  let text = response.username + "\n"
-  text += response.email + "\n"
-  text += response.url + "\n"
-  text += response.name + "\n"
+  let text = "# " + response.name + "\n" + "\n"
+  text += "## Description " +  "\n" 
   text += response.description + "\n"
-  text += response.license + "\n"
-  text += response.command + "\n"
-  text += response.run + "\n"
-  text += response.knowledge + "\n"
-  text += response.contribution + "\n"
+  text += "## Table of Contents" + "\n" + "\n"
+  text += " * Installation " + "\n"
+  text += " * Usage " + "\n"
+  text += " * " + response.license + "\n"
+  text += " * Contributing " + "\n" + "\n"
+  text += "## Test " + "\n"
+  text += "Command to run test: " + response.run + "\n"
+  text += "Previous knowledge for using repo: " + response.knowledge + "\n"
+  text += "Contributing to the repo: " + response.contribution + "\n" + "\n"
+  text += "## GitHub User Information " + "\n" 
+  text += "GitHub username: " + response.username + "\n"
+  text += "**GitHub email: " + response.email + "\n"
+  text += "GitHub Project URL: " + response.url
+
+
+
 
   fs.writeFile("README.md", text, function(err) {
     if (err) {
