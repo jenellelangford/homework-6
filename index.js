@@ -85,22 +85,3 @@ inquirer.prompt ([
   })
 });
 
-  
-
-
-
-
-    
-
-  
-
-/*
-const questions = [
-];
-
-function init() {
-
-}
-
-init();
-*/
